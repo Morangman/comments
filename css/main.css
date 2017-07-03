@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Roboto/Roboto-Regular.ttf');
+}
+div, span, textarea, input, button, a, p, h1, label, select, option {
+    font-family: Roboto, Verdana;
+}
+label {
+    display: block;
+}
+.error {
+    color: red;
+}
+div.post-header{
+    font-size: 10pt;
+    color: grey;
+}
+.post {
+    margin-top: 15px;
+}
+
+.invisible {
+    display: none;
+}
+.visible {
+    display: block;
+}
+
+.centered, h1 {
+    text-align: center;
+}
